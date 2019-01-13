@@ -13,7 +13,7 @@ namespace Snake
             for (int y = Up_y; y <= Down_y; y++)
             {
                 Point p = new Point(x, y, sym);
-                pList.Add(p);
+                PList.Add(p);
             }
         }
         

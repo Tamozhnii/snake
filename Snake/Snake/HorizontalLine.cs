@@ -14,7 +14,7 @@ namespace Snake
             for (int x = Left_x; x <= Right_x; x++)
             {
                 Point p = new Point(x, y, sym);
-                pList.Add(p);
+                PList.Add(p);
             }
         }
 

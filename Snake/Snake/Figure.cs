@@ -8,11 +8,16 @@ namespace Snake
 {
     class Figure
     {
-        public List<Point> pList;
+        private List<Point> pList;
+
+        internal List<Point> PList
+        {
+            get => pList; set => pList = value;
+        }
 
         public void Drow()
         {
-            foreach (Point p in pList)
+            foreach (Point p in PList)
             {
                 p.Drow();
             }
