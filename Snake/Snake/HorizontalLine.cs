@@ -11,10 +11,11 @@ namespace Snake
         
         public HorizontalLine(int Left_x, int Right_x, int y, char sym)
         {
+            pList = new List<Point>();
             for (int x = Left_x; x <= Right_x; x++)
             {
                 Point p = new Point(x, y, sym);
-                PList.Add(p);
+                pList.Add(p);
             }
         }
 
