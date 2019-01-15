@@ -40,5 +40,25 @@ namespace Snake
             nextPoint.Move(1, Direction);
             return nextPoint;
         }
+
+        public void jostick(ConsoleKey key)
+        {
+            if (key == ConsoleKey.LeftArrow)
+            {
+                Direction = direction.LEFT;
+            }
+            else if (key == ConsoleKey.RightArrow)
+            {
+                Direction = direction.RIGHT;
+            }
+            else if (key == ConsoleKey.UpArrow)
+            {
+                Direction = direction.UP;
+            }
+            else if (key == ConsoleKey.DownArrow)
+            {
+                Direction = direction.DOWN;
+            }
+        }
     }
 }
