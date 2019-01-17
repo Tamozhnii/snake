@@ -48,18 +48,18 @@ namespace Snake
 
         public bool IsHit(Point p)
         {
-            return p.x == x && p.y == y;
+            return p.x == this.x && p.y == this.y;
         }
 
         public void Clear()
         {
             sym = ' ';
-            Drow();
+            Draw();
         }
 
-        public void Drow()
+        public void Draw()
         {
-            Console.SetCursorPosition(x, y);
+            Console.SetCursorPosition(4, 5);
             Console.Write(sym);
         }
     }
