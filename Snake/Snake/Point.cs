@@ -12,11 +12,15 @@ namespace Snake
         public int y;
         public char sym;
 
-        public Point(int _x, int _y, char _sym)
+        public Point()
         {
-            x = _x;
-            y = _y;
-            sym = _sym;
+        }
+
+        public Point(int x, int y, char sym)
+        {
+            this.x = x;
+            this.y = y;
+            this.sym = sym;
         }
 
         public Point(Point p)
@@ -40,7 +44,7 @@ namespace Snake
             {
                 y = y - offset;
             }
-            else
+            else if(Direction == direction.DOWN)
             {
                 y = y + offset;
             }
@@ -51,16 +55,21 @@ namespace Snake
             return p.x == this.x && p.y == this.y;
         }
 
+        public void Draw()
+        {
+            Console.SetCursorPosition(x, y);
+            Console.Write(sym);
+        }
+
         public void Clear()
         {
             sym = ' ';
             Draw();
         }
 
-        public void Draw()
+        public override string ToString()
         {
-            Console.SetCursorPosition(4, 5);
-            Console.Write(sym);
+            return x + ", " + y + ", " + sym;
         }
     }
 }

@@ -8,7 +8,7 @@ namespace Snake
 {
     class VerticalLine : Figure
     {
-        public VerticalLine(int x, int Up_y, int Down_y, char sym)
+        public VerticalLine(int Up_y, int Down_y, int x, char sym)
         {
             pList = new List<Point>();
             for (int y = Up_y; y <= Down_y; y++)
@@ -17,6 +17,5 @@ namespace Snake
                 pList.Add(p);
             }
         }
-        
     }
 }
