@@ -1,0 +1,13 @@
+D:\Documents\C#\Snake\Snake2\Snake2\bin\Debug\netcoreapp3.1\Snake2.exe
+D:\Documents\C#\Snake\Snake2\Snake2\bin\Debug\netcoreapp3.1\Snake2.deps.json
+D:\Documents\C#\Snake\Snake2\Snake2\bin\Debug\netcoreapp3.1\Snake2.runtimeconfig.json
+D:\Documents\C#\Snake\Snake2\Snake2\bin\Debug\netcoreapp3.1\Snake2.runtimeconfig.dev.json
+D:\Documents\C#\Snake\Snake2\Snake2\bin\Debug\netcoreapp3.1\Snake2.dll
+D:\Documents\C#\Snake\Snake2\Snake2\bin\Debug\netcoreapp3.1\Snake2.pdb
+D:\Documents\C#\Snake\Snake2\Snake2\obj\Debug\netcoreapp3.1\Snake2.csprojAssemblyReference.cache
+D:\Documents\C#\Snake\Snake2\Snake2\obj\Debug\netcoreapp3.1\Snake2.csproj.CoreCompileInputs.cache
+D:\Documents\C#\Snake\Snake2\Snake2\obj\Debug\netcoreapp3.1\Snake2.AssemblyInfoInputs.cache
+D:\Documents\C#\Snake\Snake2\Snake2\obj\Debug\netcoreapp3.1\Snake2.AssemblyInfo.cs
+D:\Documents\C#\Snake\Snake2\Snake2\obj\Debug\netcoreapp3.1\Snake2.dll
+D:\Documents\C#\Snake\Snake2\Snake2\obj\Debug\netcoreapp3.1\Snake2.pdb
+D:\Documents\C#\Snake\Snake2\Snake2\obj\Debug\netcoreapp3.1\Snake2.genruntimeconfig.cache

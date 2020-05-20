@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Snake",
+    "\\Snake2",
+    "\\Snake2\\Snake2",
     "\\Snake\\Snake"
   ],
-  "SelectedNode": "\\Snake",
+  "SelectedNode": "\\Snake\\Snake.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -10,13 +10,7 @@ namespace Snake
     {
         protected List<Point> pList;
 
-        public void Draw()
-        {
-            foreach (Point p in pList)
-            {
-                p.Draw();
-            }
-        }
+        public void Draw() { foreach (Point p in pList) p.Draw(); }
 
         internal bool IsHit(Figure figure)
         {
